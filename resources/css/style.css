@@ -26,6 +26,23 @@ html {
 }
 .banner {
   display: flex;
-  background-image: url("../../resources/moto.jpg");
+  background-image: url("../../resources/moto.jpeg");
   height: 25rem;
+}
+.bannertext {
+  background-color: black;
+  width: 20rem;
+  margin-top: 9rem;
+  margin-left: 7rem;
+  margin-bottom: 3rem;
+}
+.bannertext h2 {
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: white;
+}
+.bannertext h1 {
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: white;
 }
