@@ -13,13 +13,12 @@ html {
 .header img {
   height: 1.5rem;
   margin-right: 1rem;
-  height: 1.5rem;
   margin-left: 7rem;
 
 }
 .header p {
   font-size: 1rem;
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
   color: white;
   margin-top: 0.66rem;
   margin-bottom: 0.66rem;
@@ -31,18 +30,37 @@ html {
 }
 .bannertext {
   background-color: black;
-  width: 20rem;
+  width: 25rem;
   margin-top: 9rem;
   margin-left: 7rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 .bannertext h2 {
   font-size: 1rem;
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
   color: white;
+  margin-top: 2rem;
+  margin-bottom: 0.25rem;
+  margin-left: 3rem;
 }
 .bannertext h1 {
-  font-size: 1rem;
-  font-family: Helvetica;
+  font-size: 2rem;
+  font-family: Helvetica, Arial, sans-serif;
   color: white;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  background-color: firebrick;
+  align-items: center;
+  justify-content: space-around;
+}
+.navigation p {
+  color: white;
+  flex-direction: row;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  align-items: center;
 }
